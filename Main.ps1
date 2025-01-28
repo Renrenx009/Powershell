@@ -1,4 +1,4 @@
-# 1)Write-Output 'Hello World!'
+# 1)Write-Output 'Hello World!' Save this code to HelloWorld.ps1 extension (all files) and use powershell and type the following to run it .\HelloWorld.ps1
 
 $name = Read-Host -Prompt "Please enter your name"
 Write-Output "Congratulations $name! You have written your first code with PowerShell!"
@@ -65,6 +65,8 @@ Add-Content -Path $logFile -Value "Moved $($approvedPOs.Count) POs on $(Get-Date
 
 #4________________________________________________________________________________________4
 
+# Change directory (example) can add " " for name directory that have space in between
+cd "C:\Users\RenaldMok\OneDrive - SHIMADZU\Desktop\Others\Powershell"
 
 
 
